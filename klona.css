@@ -1,0 +1,201 @@
+body{
+        margin: 0px, 0px;
+        padding: 0px;
+        background-color: rgb(27, 22, 20);
+        color: aliceblue;
+        font-family: publik, helvetica, arial, sans-serif;
+    }
+.navbar{
+  position: relative;
+  margin:0;
+  padding: 10;
+  width: 100%;
+}
+.navbar ul{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 2rem;
+          margin:10px;
+          list-style: none;
+          align-items:center;
+          }
+
+.navbar li {
+width: max-content;
+flex-shrink: 1;
+}
+.item4{
+  flex-grow: 1;
+}
+.navbar button{
+  background-color: rgb(27, 22, 20);
+  color: aliceblue;
+  border:0;
+}
+.navbar input{
+  border-radius: 60px;
+  height: 40px;
+  width: 220px;
+}
+.navbar a{
+  color: aliceblue;
+  font-family: publik, helvetica, arial, sans-serif;
+  text-decoration:none;
+}
+.navbar a:hover{
+  text-decoration:underline;
+}
+
+.maincontent{
+  position: relative;
+  display: flex;
+  width: 1160px;
+  height: 390px;
+  background-color: rgb(30, 30, 30);
+  margin-left:60px;
+}
+.maincontent a{
+  position: absolute;
+  margin-left: 0px;
+              }
+.beskrivning h1{
+
+  position: absolute;
+  margin-left: 800px;
+  top:60px;
+}
+.beskrivning article{
+  position: absolute;
+  margin-left: 750px;
+  top:150px;
+}
+
+
+
+.galleryflx{
+            position: relative;
+            display:flex;
+            gap: 1rem;
+            width: 100%;
+            top: 10px;
+            }
+
+  .gl-item1{
+            position: absolute;
+            width: max-content;
+            flex-shrink: 1;
+            left: 90px;
+          }
+.description1{
+            background-color: rgb(50, 49, 49);
+            position: absolute;
+            width: 15%;
+            left: 90px;
+            top: 112px;
+            padding: 5px;
+            flex-wrap: wrap;
+            box-shadow: 3px 3px 5px gray;
+}
+
+.gl-item2{
+            position: absolute;
+            width: max-content;
+            flex-shrink: 1;
+            left: 308px;
+
+          }
+.description2{
+            background-color: rgb(60, 59, 59);
+            position: absolute;
+            box-shadow: 3px 3px 5px gray;
+            padding: 5px;
+            width: 15%;
+            left: 308px;
+            top: 112px;
+            flex-wrap: wrap;
+}
+
+.gl-item3{
+          position: absolute;
+          width: max-content;
+          flex-shrink: 1;
+          left: 527px;
+          }
+.description3{
+  background-color: rgb(60, 59, 59);
+  position: absolute;
+  box-shadow: 3px 3px 5px gray;
+  padding: 5px;
+  width: 16%;
+  left: 527px;
+  top: 112px;
+  flex-wrap: wrap;
+}
+
+.gl-item4{
+  position: absolute;
+  width: max-content;
+  flex-shrink: 1;
+  left: 762px;
+  }
+.description4{
+background-color: rgb(60, 59, 59);
+position: absolute;
+box-shadow: 3px 3px 5px gray;
+padding: 5px;
+width: 15%;
+left: 762px;
+top: 112px;
+flex-wrap: wrap;
+}
+
+.gl-item5{
+  position: absolute;
+  width: max-content;
+  flex-shrink: 1;
+  left: 980px;
+  }
+.description5{
+background-color: rgb(60, 59, 59);
+position: absolute;
+box-shadow: 3px 3px 5px gray;
+padding: 5px;
+width: 15%;
+left: 980px;
+top: 112px;
+flex-wrap: wrap;
+}
+
+#Installningar{
+  background-color: rgb(61, 60, 60);
+  color: aliceblue;
+  position: absolute;
+  width: 160px;
+  height: 25px;
+  border-radius: 20px;
+  top: 860px;
+  left: 510px;
+}
+
+
+#Kontakt{
+  background-color: rgb(61, 60, 60);
+  color: aliceblue;
+  display: inline-block;
+  position: absolute;
+  width: 150px;
+  height: 25PX;
+  border-radius: 20PX;
+  top: 860px;
+  left: 705px;
+}
+#svt{
+  position: absolute;
+  top: 870px;
+  left: 645px;
+}
+#svtab{
+  position: absolute;
+  top: 925px;
+  left: 605px;
+}
